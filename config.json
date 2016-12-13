@@ -1,0 +1,14 @@
+{
+  "env": {
+    "dev": {
+      "name": "Development",
+      "port": 3000,
+      "files": "src"
+    },
+    "prd": {
+      "name": "Production",
+      "port": 443,
+      "files": "public"
+    }
+  }
+}

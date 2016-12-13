@@ -1,0 +1,29 @@
+{
+  "extends": "standard",
+  "installedESLint": true,
+  "plugins": [
+      "standard",
+      "promise"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "one-var": ["error", "always"],
+    "indent": 0,
+    "key-spacing": ["error", {
+      "align": {
+        "beforeColon": false,
+        "afterColon": true,
+        "on": "value",
+        "mode": "strict"
+      }
+    }],
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }]
+  }
+}
