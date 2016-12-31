@@ -1,0 +1,10 @@
+<div class="friends-wrapper__list">
+  {{#each friends}}
+    <div class="friend" data-uuid="{{this.id}}">
+      <img src={{this.image}} alt={{this.name}}>
+      <h1 class="friend__name">{{this.name}}</h1>
+      <p class="friend__bio">{{this.bio}}</p>
+      <small class="friend__address">{{this.address}}</small>
+    </div>
+  {{/each}}
+</div>
