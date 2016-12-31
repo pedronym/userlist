@@ -1,0 +1,73 @@
+@import 'foundation';
+
+* {
+  box-sizing: border-box;
+}
+
+$highlight: #448AFF;
+
+body {
+  background-color: white;
+  font-family: 'Lato', 'Open Sans', 'Helvetica', arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.wrapper-global {
+  @include grid-row;
+}
+
+.header {
+  &__default {
+    color: $highlight;
+    margin-bottom: 3rem;
+  }
+}
+
+.header-title {
+}
+
+.page {
+
+}
+
+.friends-wrapper__list {
+  @include grid-row;
+}
+
+.friend {
+  @include grid-col(12);
+  @include clearfix;
+}
+
+.user-card {
+  text-align: center;
+  margin-bottom: 5rem;
+
+  .user-card__avatar {
+    border-radius: 50% 50%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    width: 128px;
+    height: 128px;
+    margin-bottom: 1rem;
+  }
+
+  .user-card__greet, .user-card__name, .user-card__email {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .user-card__name {
+    color: $highlight;
+  }
+}
+
+.friend-profile {
+  @include grid-row;
+}
+
+.button-find {
+  @include button;
+}

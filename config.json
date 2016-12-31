@@ -10,5 +10,6 @@
       "port": 443,
       "files": "public"
     }
-  }
+  },
+  "MAPS_KEY": "AIzaSyAo_MsCI38R4TXrX2_y3iB6MklYAdzXsvo"
 }

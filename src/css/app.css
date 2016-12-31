@@ -1,0 +1,113 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.0
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: 'Lato', 'Open Sans', 'Helvetica', arial, sans-serif;
+  margin: 0;
+  text-align: center; }
+
+.wrapper-global {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto; }
+  .wrapper-global::before, .wrapper-global::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1; }
+  .wrapper-global::after {
+    clear: both; }
+
+.header__default {
+  color: #448AFF;
+  margin-bottom: 3rem; }
+
+.friends-wrapper__list {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto; }
+  .friends-wrapper__list::before, .friends-wrapper__list::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1; }
+  .friends-wrapper__list::after {
+    clear: both; }
+
+.friend {
+  width: 100%;
+  float: left;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem; }
+  @media print, screen and (min-width: 40em) {
+    .friend {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; } }
+  .friend:last-child:not(:first-child) {
+    float: right; }
+  .friend::before, .friend::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1; }
+  .friend::after {
+    clear: both; }
+
+.user-card {
+  text-align: center;
+  margin-bottom: 5rem; }
+  .user-card .user-card__avatar {
+    border-radius: 50% 50%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 128px;
+    height: 128px;
+    margin-bottom: 1rem; }
+  .user-card .user-card__greet, .user-card .user-card__name, .user-card .user-card__email {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem; }
+  .user-card .user-card__name {
+    color: #448AFF; }
+
+.friend-profile {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto; }
+  .friend-profile::before, .friend-profile::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1; }
+  .friend-profile::after {
+    clear: both; }
+
+.button-find {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem 0;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1779ba;
+  color: #fefefe; }
+  [data-whatinput='mouse'] .button-find {
+    outline: 0; }
+  .button-find:hover, .button-find:focus {
+    background-color: #14679e;
+    color: #fefefe; }
+
+/*# sourceMappingURL=app.css.map */

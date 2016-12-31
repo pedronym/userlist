@@ -15,6 +15,11 @@
     "eslint-plugin-standard": "^2.0.1",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
-    "faker": "^3.1.0"
+    "express-livereload": "0.0.24",
+    "faker": "^3.1.0",
+    "foundation-sites": "^6.3.0",
+    "livereload": "^0.6.0",
+    "nodemon": "^1.11.0",
+    "umbrellajs": "^2.6.7"
   }
 }
